@@ -1,0 +1,11 @@
+1. You must write a function that will take two ints as input, and return true if both
+numbers are A) Primes and B) exactly two away from each other
+
+2. You must write a function that will return true if a number is a perfect
+number, which means its factors, summed up, equal the number. For example, 6
+is a perfect number because its factors are 1,2,3, and 1+2+3 is 6. 8 is not a
+perfect number because its factors are 1,2,4, and 1+2+4 is 7, not 8. So it
+would return true for 6, but false for 8.
+
+Notes: negative numbers cannot be primes or perfect numbers. If they type in
+something not an integer print "BAD INPUT!" to the screen and exit.
