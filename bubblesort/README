@@ -1,0 +1,26 @@
+For this program you will take a bunch of number input by the user and sort
+them from greatest to smallest.
+
+There are two sections marked YOU where you should write code.
+
+First, you need to write a function which will pick out the maximum element of
+an array. This function is up top above main. It will return the maximum
+element found, and will return the index number of it in the index_no
+parameter that is passed by reference.
+
+Second, you will need to write a sorting algorithm using either bubble sort or
+selection sort. (Don't use code copied from Stack Overflow because I know how
+to Google, too.)
+
+Basically, what the sorting code will do is this:
+1) It creates a new array called sorted_array of the same size as the original
+array. 
+2) For each spot in sorted array, it will pick out the maximum element from
+the original array, and then remove that element from the original array.
+
+This will result in the sorted array holding all the elements from the
+original array, but in sorted order, and the original array being effectively
+destroyed.
+
+Don't mess with any of the input or output code, as it is all fully
+functional. ONLY write code where it says "YOU:"
